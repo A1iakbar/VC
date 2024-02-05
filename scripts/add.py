@@ -28,7 +28,7 @@ def call_sport():
     if (name):
         response[name] = sport
         write_json(response)
-
+    print("done")
 
 if __name__ == "__main__":
     call_sport()
